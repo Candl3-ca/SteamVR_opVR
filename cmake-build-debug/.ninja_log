@@ -1,0 +1,5 @@
+# ninja log v5
+2	900	6811080552734971	CMakeFiles/SteamVR_overlay.dir/main.c.obj	ad41d33bcf6fc386
+669	767	6806841300578578	SteamVR_overlay.exe	8a72a74ff9e7208b
+2	224	6812495660469409	build.ninja	a2744c297409676b
+2	785	6812495698907990	CMakeFiles/SteamVR_overlay.dir/main.c.obj	ad41d33bcf6fc386
