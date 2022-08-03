@@ -31,12 +31,12 @@ struct VR_IVROverlay_FnTable * oOverlay;
 VROverlayHandle_t ulHandle;
 
 
+
 void * CNOVRGetOpenVRFunctionTable( const char * interfacename )
 {
     EVRInitError e;
     char fnTableName[128];
-    int result1 = snprintf( fnTableName, 128, "FnTable:%s", interfacename );
-    void * ret = (void *)VR_GetGenericInterface(fnTableName, &e );
+    int result1 = snprintf( fnTableName, 128, "FnTable:%s", interfacename );void * ret = (void *)VR_GetGenericInterface(fnTableName, &e );
     printf( "Getting System FnTable: %s = %p (%d)\n", fnTableName, ret, e );
     if( !ret )
     {
